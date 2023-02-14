@@ -1,0 +1,63 @@
+#note-list {
+  list-style: none;
+  padding-left: 0;
+}
+#note-list li {
+  margin-bottom: 10px;
+}
+#note-list li .note-text {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+#note-list li .note-text.expanded {
+  background-color: #fff;
+}
+#note-list li .note-text .note-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#note-list li .note-text .note-body {
+  display: none;
+  padding: 10px;
+}
+#note-list li .note-text.expanded .note-body {
+  display: block;
+}
+#note-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note-text {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.note-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.note-body {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.expanded {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.delete-note {
+  float: right;
+  font-size: 0.8rem;
+  color: #999;
+  cursor: pointer;
+}
