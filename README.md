@@ -1,2 +1,2 @@
 # chatGPT-note-taking-app
-You won't believe how easy it is to create your own app with ChatGPT's help
+`Hey there Mellow ASMR Programming fans! In today's video, we're getting our hands dirty and building a note-taking app using JavaScript and the amazing ChatGPT. You won't believe how easy it is to create your own app with ChatGPT's help. And the best part? It's all done in a calming and relaxed ASMR style. So sit back, relax, and let's build a super cool note-taking app together! Don't forget to hit that subscribe button and turn on notifications so you never miss a video. Let's do this!`
